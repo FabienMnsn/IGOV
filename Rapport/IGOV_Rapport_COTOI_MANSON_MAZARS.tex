@@ -1,0 +1,97 @@
+\documentclass{article}
+
+% PACKAGE IMPORT
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{sectsty}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage[top=1.25cm, bottom=1.25cm, left=1cm, right=1cm]{geometry}
+\usepackage{tabularx,tabulary}
+\usepackage{graphicx}
+
+
+
+%----------------------------------------
+% TEXT VARIABLE TO CHANGE FOR EACH REPORT
+\newcommand{\UE}{IGOV}
+\newcommand{\TeacherFN}{Meryem}
+\newcommand{\TeacherLN}{MERZOUKI}
+%----------------------------------------
+
+
+
+% HEADER & PAGE SETTING
+\pagestyle{fancy}
+
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{\UE}
+\cfoot{\thepage\ / \pageref{LastPage}}
+\rfoot{\today{}}
+% remove horizontal head bar
+\renewcommand{\headrulewidth}{0pt}
+
+% DOCUMENT START
+\begin{document}
+
+% TITLE PAGE START
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.35mm}}
+
+ % LOGO
+\includegraphics[scale=0.08]{images/logo_sorbonne.png}\\[2cm]
+
+\center
+
+% TITLE
+\textsc{\huge Master 2 Informatique Réseau, UE : \UE}\\[0.8cm]
+
+% SUBTITLE
+\HRule \\[0.4cm]
+{ \Huge \bfseries L'ICANN}\\[0.4cm]
+\HRule \\[2cm]
+
+% AUTHORS
+\begin{minipage}{0.4\textwidth}
+	\begin{flushleft} \large
+	\emph{Auteurs:}\\[0.2cm]
+	Fabien \textsc{MANSON}\\
+	Alexandre \textsc{MAZARS}
+	\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+	\begin{flushright} \large
+	\emph{Enseignants:} \\[0.2cm]
+	\TeacherFN \textsc{\TeacherLN}
+	\end{flushright}
+\end{minipage}\\[4cm]
+
+% TITLE PAGE END
+\end{titlepage}
+
+% ------------------- PAGES -------------------
+
+% PAGE
+\newpage
+\section{}
+
+
+% PAGE
+\newpage
+\section{Partie 2 : }
+
+
+
+% PAGE
+\newpage
+\section{Partie 3 : }
+
+
+
+% DOCUMENT END
+\end{document}
