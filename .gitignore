@@ -1,0 +1,5 @@
+# ignore all non rendered file
+*.log
+*.aux
+*.synctex.gz
+*.tex.bak
